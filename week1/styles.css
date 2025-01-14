@@ -1,0 +1,41 @@
+.content{
+    align-items: center;
+    max-width: 600px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: 200px;
+}
+
+main{
+    margin: auto;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+ul{
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 20px;
+    color: #006eb6;
+    letter-spacing: 4px;
+}
+h1, h2{
+    align-items: center;
+    letter-spacing: 2px;
+}
+img{
+    width: 150px;
+    height: 120px;
+    padding-left: 210px;
+    padding-top: 50px;
+}
+
+footer{
+    align-items: center;
+}
