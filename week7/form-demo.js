@@ -8,7 +8,6 @@ function togglePaymentDetails() {
     const creditCardInput = theForm.creditCardNumber;
     const paypalInput = theForm.paypalUsername;
 
-    // Hide both fields initially
     creditCardContainer.classList.add("hide");
     paypalContainer.classList.add("hide");
     creditCardInput.required = false;
@@ -16,7 +15,6 @@ function togglePaymentDetails() {
     paypalInput.required = false;
     paypalInput.disabled = true;
 
-    // Show the selected payment method's field
     if (theForm.paymentMethod.value === "creditCard") {
         creditCardContainer.classList.remove("hide");
         creditCardInput.required = true;
