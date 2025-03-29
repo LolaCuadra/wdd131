@@ -1,0 +1,113 @@
+/* Global Styles */
+:root {
+    --primary-color: #1B98E0;
+    --secondary-color: #59c3c3;
+    --text-dark: #333;
+    --text-light: #ebebeb;
+    --primary-font: Arial, Helvetica, sans-serif;
+    --secondary-font: "Amatic SC";
+  }
+  
+  body {
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+    color: var(--text-light);
+  }
+  
+  header img {
+    width: 100px;
+    height: auto;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #search-form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #search-form input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  #search-form button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border: none;
+  }
+  
+  #recipe {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .rating {
+    display: inline-block;
+  }
+  
+  .icon-star {
+    color: gold;
+  }
+  
+  .icon-star-empty {
+    color: gray;
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer .social {
+    margin: 10px 0;
+  }
+  
+  footer .social a {
+    margin: 0 10px;
+  }
+  
+  footer p {
+    font-size: 0.8em;
+    color: var(--text-light);
+  }
+  
+  @media (min-width: 600px) {
+    body {
+      font-family: var(--primary-font);
+    }
+  
+    #recipe {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  }
+  
+  @media (min-width: 960px) {
+    body {
+      font-family: var(--primary-font);
+    }
+  }
+  

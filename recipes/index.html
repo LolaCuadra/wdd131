@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A delicious recipe book to explore new cooking ideas.">
+  <meta name="author" content="Dolores Cuadra">
+  <meta property="og:title" content="Recipe Book">
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="A delicious recipe book to explore new cooking ideas." />
+  <meta property="og:image" content="images/recipe-book.png">
+  <meta property="og:url" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+  <link rel="stylesheet" href="./recipes.css">
+  <script src="recipes.mjs" type="module"></script>
+  <script src="main.js" defer></script>
+  <title>Recipe Book</title>
+</head>
+<body>
+  <header>
+    <img src="images/recipe-book.png" alt="Recipe Book Logo">
+    <h1>Recipe Book</h1>
+  </header>
+
+  <main>
+    <h2>Find a Recipe</h2>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search for recipes...">
+      <button type="submit">Search</button>
+    </form>
+
+    <section id="recipe">
+      <h2>Recipe Title</h2>
+      <div class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+        <span aria-hidden="true" class="icon-star">⭐</span>
+        <span aria-hidden="true" class="icon-star">⭐</span>
+        <span aria-hidden="true" class="icon-star">⭐</span>
+        <span aria-hidden="true" class="icon-star-empty">⭐</span>
+        <span aria-hidden="true" class="icon-star-empty">☆</span>
+      </div>
+      <p id="recipe-description">This is a delicious recipe you can try at home!</p>
+      <button>See Full Recipe</button>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="#"><img src="images/instagram_icon.svg" alt="Instagram"></a>
+      <a href="#"><img src="images/youtube_icon.svg" alt="YouTube"></a>
+      <a href="#"><img src="images/pinterest_icon.svg" alt="Pinterest"></a>
+    </div>
+    <p>Recipe icons created by Freepik - Flaticon</p>
+    <p><!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates --></p>
+  </footer>
+</body>
+</html>
