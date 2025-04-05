@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Librero - Book Tracker</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="./librero-logo.png" alt="Logo- Libreroo">
+    <hr>
+    <nav>
+      <a href="#" onclick="switchPage('home')">Home</a>
+      <a href="#" onclick="switchPage('search')">Search Books</a>
+      <a href="#" onclick="switchPage('mybooks')">My Books</a>
+    </nav>
+    <hr>
+  </header>
+  <main>
+    <div id="home">
+      <h1>You Might Like</h1>
+      <div class="book-container" id="homeBooks"></div>
+    </div>
+
+    <div id="search" style="display:none">
+      <label for="searchInput">Search Books</label><br>
+      <input type="text" id="searchInput" size="40" placeholder="Search by title, author, genre...">
+      <button onclick="searchBooks()">Search</button>
+      <div class="book-container" id="searchResults"></div>
+    </div>
+
+    <div id="mybooks" style="display:none">
+      <h1>My Books</h1>
+      <div class="book-container" id="myBooksList"></div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
