@@ -23,7 +23,7 @@ main {
   padding: 1rem;
 }
 
-h2{
+h1{
   text-align: center;
 }
 
@@ -80,5 +80,5 @@ button{
 }
 
 label{
-  font-size: 20px;
+  font-size: 30px;
 }
