@@ -3,18 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Librero - Book Tracker</title>
+  <meta name="description" content="Librero - Track and discover your next favorite book easily.">
+  <meta name="author" content="Dolores Cuadra">
+  <title>Librero - Book Search + Track</title>
+  <link rel="icon" href="./favicon (1).ico" type="image/x-icon">
   <link rel="stylesheet" href="./style.css">
   <script src="./app.js" defer></script>
 </head>
 <body>
   <header>
-    <img src="./librero-logo.webp" alt="Logo- Librero" width="200" height="200">
+    <img src="./librero-logo.webp" loading="lazy" alt="Logo- Librero" width="200" height="200">
     <hr>
-    <nav>
-      <a href="#" onclick="switchPage('home')">Home</a>
-      <a href="#" onclick="switchPage('search')">Search Books</a>
-      <a href="#" onclick="switchPage('mybooks')">My Books</a>
+    <nav aria-label="Main navigation">
+        <ul style="list-style: none; padding: 0; display: flex; justify-content: center;">
+            <li><a href="#" onclick="switchPage('home')">Home</a></li>
+            <li><a href="#" onclick="switchPage('search')">Search Books</a></li>
+            <li><a href="#" onclick="switchPage('mybooks')">My Books</a></li>
+        </ul>
     </nav>
     <hr>
   </header>
