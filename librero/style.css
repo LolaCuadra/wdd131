@@ -45,6 +45,7 @@ h1{
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
 }
+
 .book {
   background: white;
   padding: 1rem;
@@ -98,16 +99,20 @@ label{
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #f8f8f8;
-  font-size: 0.9rem;
-  color: #555;
+  background-color: #E7C24F;
   border-top: 1px solid #ccc;
 }
 
+footer p{
+  font-size: 0.9rem;
+  color: black solid;
+}
+
 footer nav a {
-  margin: 0 8px;
+  font-size: 30px;
+  margin: 0 1rem;
+  color: #396E94;
   text-decoration: none;
-  color: #0077cc;
 }
 
 footer nav a:hover {
